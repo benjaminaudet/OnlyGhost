@@ -1,0 +1,72 @@
+{
+  "name": "only-ghost",
+  "author": "Florian ARGAUD",
+  "version": "1.0.0",
+  "description": "Ephemeral Sensitive Data Transmission Service built with Nuxt.js",
+  "keywords": [
+    "encryption",
+    "security",
+    "ephemeral",
+    "data-transmission",
+    "zero-knowledge",
+    "nuxt",
+    "vue"
+  ],
+  "homepage": "https://github.com/yourusername/onlyGhost#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/onlyGhost.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/onlyGhost/issues"
+  },
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "npx nuxthub preview",
+    "deploy": "npx nuxthub deploy",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "drizzle:generate": "drizzle-kit generate",
+    "drizzle:push": "drizzle-kit push"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "^1.4.1",
+    "@nuxt/fonts": "0.11.4",
+    "@nuxt/icon": "1.13.0",
+    "@nuxthub/core": "^0.8.27",
+    "@nuxtjs/tailwindcss": "6.14.0",
+    "better-sqlite3": "^11.10.0",
+    "drizzle-kit": "^0.31.1",
+    "drizzle-orm": "^0.43.1",
+    "nuxt": "^3.17.5",
+    "nuxt-qrcode": "^0.4.1",
+    "vue": "^3.5.16",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@iconify-json/heroicons": "^1.2.2",
+    "@iconify-json/simple-icons": "^1.2.38",
+    "@iconify/vue": "^5.0.0",
+    "@nuxt/eslint-config": "^1.4.1",
+    "@types/better-sqlite3": "^7.6.13",
+    "eslint": "^9.29.0",
+    "typescript": "^5.8.3",
+    "vue-tsc": "^2.2.10",
+    "wrangler": "^4.20.1"
+  },
+  "packageManager": "pnpm@10.9.0",
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "better-sqlite3",
+      "esbuild",
+      "sharp",
+      "workerd"
+    ]
+  }
+}
