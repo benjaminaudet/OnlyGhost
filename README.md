@@ -1,4 +1,4 @@
-# 👻 GhostData
+# 👻 OnlyGhost
 
 > **Ephemeral Sensitive Data Transmission Service** - Share secrets that disappear without a trace
 
@@ -11,7 +11,7 @@
 
 ## Overview
 
-GhostData is a minimalist secure data transmission service designed specifically for sending sensitive information that doesn't belong in regular communication channels.
+OnlyGhost is a minimalist secure data transmission service designed specifically for sending sensitive information that doesn't belong in regular communication channels.
 
 ### Key Features
 

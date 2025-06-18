@@ -18,7 +18,7 @@ Since GhostData handles sensitive data transmission, security is our top priorit
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/onlyGhost.git
+git clone https://github.com/florianjs/OnlyGhost
 cd onlyGhost
 
 # Install dependencies
@@ -79,7 +79,7 @@ pnpm drizzle:push
 
 **⚠️ NEVER report security vulnerabilities through public issues!**
 
-Instead, please email security issues to: [security@yourdomain.com]
+Instead, please email security issues to: [security@onlyghost.com]
 
 ### Bug Reports
 
